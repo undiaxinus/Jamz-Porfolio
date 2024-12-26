@@ -11,6 +11,14 @@ import { CommonModule } from '@angular/common';
 export class PortfolioComponent {
   webProjects = [
     {
+      name: 'JeepFinder',
+      description: 'A comprehensive web and mobile application for tracking jeepney routes and locations. Built with HTML, CSS, JavaScript, PHP for web interface and MIT App Inventor for the mobile app.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MIT App Inventor'],
+      image: 'assets/jeepfinder.jpg',
+      demo: 'https://jeepfinder-demo.com',
+      github: 'https://github.com/yourusername/jeepfinder'
+    },
+    {
       name: 'Inventory Management System',
       description: 'A comprehensive system built with Angular, Laravel, and MySQL for tracking inventory, sales, and generating reports.',
       technologies: ['Angular', 'Laravel', 'MySQL', 'Tailwind CSS'],
@@ -45,6 +53,12 @@ export class PortfolioComponent {
   ];
 
   technicalProjects = [
+    {
+      title: 'Vehicle Tracking & Monitoring Device',
+      description: 'IoT-based vehicle tracking system using Arduino with real-time GPS tracking, LCD display, and LoRa communication. Features touch sensor interface and battery-powered operation.',
+      technologies: ['C++', 'Arduino', 'GPS', 'LoRa', 'ESP32', 'I2C LCD'],
+      image: 'assets/vehicle-tracker.jpg'
+    },
     {
       title: 'Arduino Weather Station',
       description: 'DIY weather monitoring system using Arduino and various sensors',
